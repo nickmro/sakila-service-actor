@@ -50,12 +50,6 @@ docker build -t sakila/service-actor:1.0 .
 docker run --name sakila-service-actor --publish 3000:3000 sakila/service-actor:1.0
 ```
 
-## Documentation
-
-The REST API documentation is provided by `swagger.yml`. It can be loaded into an API client such as [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/).
-
-The GraphQL schema and documentation may also be viewed by loading the schema into one of the API clients above.
-
 ## Environment Variables
 #### Runtime
 | name                   | description                                     | type    | optional | default      |
