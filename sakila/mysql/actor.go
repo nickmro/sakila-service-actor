@@ -87,7 +87,7 @@ func actorsQuery(params sakila.ActorParams) (string, []interface{}) {
 			args[i] = ids[i]
 		}
 
-		query.Where("actor.actor_id IN %v", args...)
+		query.Where("actor.actor_id IN (%v)", args...)
 	}
 
 	return query.Build()

@@ -11,7 +11,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/graphql-go/graphql v0.7.9
 	github.com/graphql-go/handler v0.2.3
-	github.com/nickmro/mrqb v0.0.0-20210521191352-2525b8ae7c75
+	github.com/nickmro/mrqb v0.0.0-20210528231604-00d597342c49
 	github.com/onsi/ginkgo v1.16.1
 	github.com/onsi/gomega v1.11.0
 	github.com/spf13/viper v1.7.1
